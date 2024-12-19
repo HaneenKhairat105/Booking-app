@@ -124,7 +124,7 @@ public class Base {
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.launchApp();
-		
+		/*
 		 try {
 	            // Command to start video recording
 	            String command = "ffmpeg -video_size 1280x720 -framerate 30 -f gdigrab -i desktop -c:v libx264 -preset ultrafast " + VIDEO_FILE;
@@ -156,7 +156,7 @@ public class Base {
 	        } catch (IOException e) {
 	            System.err.println("Failed to start FFmpeg process: " + e.getMessage());
 	            recordingProcess = null; // Ensure it's null if startup fails
-		 }     
+		 }     */
 	}
 	
 	@AfterMethod
